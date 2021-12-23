@@ -2,6 +2,10 @@
   "name": "motorama",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
+  },
   "scripts": {
     "dev": "cross-env NODE_ENV=development NUXT_PORT=3000 nuxt",
     "analyze": "cross-env NODE_ENV=production  nuxt build --analyze",
