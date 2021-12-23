@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Motorbikes",
+    "slug": "motorbikes",
+    "description": "Donec ultrices neque ut purus semper varius."
+  },
+  {
+    "id": 2,
+    "title": "ATVs",
+    "slug": "atvs",
+    "description": "Donec ultrices neque ut purus semper varius."
+  },
+  {
+    "id": 3,
+    "title": "Scooters",
+    "slug": "scooters",
+    "description": "Donec ultrices neque ut purus semper varius."
+  },
+  {
+    "id": 4,
+    "title": "Tricycles",
+    "slug": "tricycles",
+    "description": "Donec ultrices neque ut purus semper varius."
+  }
+]

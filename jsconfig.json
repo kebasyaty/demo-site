@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"],
+      "~~/*": ["./*"],
+      "@@/*": ["./*"]
+    }
+  },
+  "include": [
+    "components/**/*.vue",
+    "layouts/**/*.vue",
+    "middleware/**/*.js",
+    "mixins/**/*.js",
+    "pages/**/*.vue",
+    "plugins/**/*.js",
+    "serverMiddleware/**/*.js",
+    "store/**/*.js",
+    "tests/**/*.js"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "**/node_modules",
+    "build",
+    "public",
+    "static",
+    ".vscode",
+    ".nuxt",
+    "coverage",
+    "jspm_packages",
+    "tmp",
+    "temp",
+    "bower_components",
+    ".npm",
+    ".yarn",
+    ".git"
+  ]
+}

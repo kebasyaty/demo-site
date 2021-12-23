@@ -1,0 +1,16 @@
+/* TEXT
+----------------------------------------------------------------------------------------------------
+*/
+/* Text highlight color */
+::selection {
+  color: #cfd8dc;
+  background: #37474f;
+}
+::-moz-selection {
+  color: #cfd8dc;
+  background: #37474f;
+}
+::-webkit-selection {
+  color: #cfd8dc;
+  background: #37474f;
+}
