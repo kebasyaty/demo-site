@@ -93,6 +93,19 @@ export default {
   // Axios module configuration
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
+    baseURL: isDev ? "/" : "https://motorama.herokuapp.com/",
+  },
+
+  publicRuntimeConfig: {
+    axios: {
+      browserBaseURL: process.env.BROWSER_BASE_URL,
+    },
+  },
+
+  privateRuntimeConfig: {
+    axios: {
+      baseURL: process.env.BASE_URL,
+    },
   },
 
   // Render configuration
