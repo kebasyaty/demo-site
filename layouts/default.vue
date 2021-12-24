@@ -90,7 +90,7 @@ export default {
   },
 
   head() {
-    const canonical = `https://motorama.com${this.$route.path
+    const canonical = `https://motorama.herokuapp.com${this.$route.path
       .toLowerCase()
       .replace(/\/$/, "")}`;
     return {
