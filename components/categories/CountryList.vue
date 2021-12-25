@@ -49,7 +49,7 @@ List of countries of manufacturers of motorbikes
                         >
                           <v-progress-circular
                             indeterminate
-                            color="grey lighten-5"
+                            color="grey lighten-1"
                           ></v-progress-circular>
                         </v-row>
                       </template>
