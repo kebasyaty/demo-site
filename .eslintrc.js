@@ -8,8 +8,13 @@ module.exports = {
     parser: "@babel/eslint-parser",
     requireConfigFile: false,
   },
-  extends: ["@nuxtjs", "plugin:nuxt/recommended", "prettier"],
-  plugins: [],
+  extends: [
+    "@nuxtjs",
+    "plugin:nuxt/recommended",
+    "prettier",
+    "plugin:lodash/recommended",
+  ],
+  plugins: ["lodash"],
   // add your custom rules here
   rules: {
     "no-console": "off",
