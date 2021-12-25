@@ -9,6 +9,23 @@
 
 import Vue from "vue";
 import VueLodash from "vue-lodash";
-import lodash from "lodash";
+import isUndefined from "lodash/isUndefined";
+import isNull from "lodash/isNull";
+import isString from "lodash/isString";
+import isInteger from "lodash/isInteger";
+import isBoolean from "lodash/isBoolean";
+import isArray from "lodash/isArray";
+import isPlainObject from "lodash/isPlainObject";
 
-Vue.use(VueLodash, { name: "$_", lodash });
+Vue.use(VueLodash, {
+  name: "$_",
+  lodash: {
+    isUndefined,
+    isNull,
+    isString,
+    isInteger,
+    isBoolean,
+    isArray,
+    isPlainObject,
+  },
+});
