@@ -93,7 +93,7 @@ export default {
   // Axios module configuration
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
-    // baseURL: "https://motorama.herokuapp.com/",
+    baseURL: "https://motorama.herokuapp.com/",
   },
 
   publicRuntimeConfig: {
